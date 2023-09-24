@@ -13,7 +13,9 @@ body {
 
 
 .header {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -74,8 +76,8 @@ body {
 
 .Rectangle2 {
     position: absolute;
-    top: 0%;
-    left: 5%;
+    top: 27px;
+    left: 40px;
     width: 657px;
     height: 128px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
@@ -132,8 +134,8 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    right: 40px;
+    top: 27px;
     width: 450px;
     height: 179px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
@@ -214,7 +216,7 @@ body {
     bottom: 10%;
     right: 5%;
     width: 184px;
-    height: 42px;
+    height: 50px;
     border-radius: 4px;
     background-color: #f05136;
     cursor: pointer;
@@ -223,10 +225,16 @@ body {
     line-height: 42px;
 }
 .footers{
-	position: absolute;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
+	/* margin-left: 80px; */
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+	font-size: 24px;
 	font-family: Nunito Sans;
 	font-style: normal;
+}
+
+.group-3-div {
+    display: flex;
+    justify-content: center;
 }
